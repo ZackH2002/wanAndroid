@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@color/white">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_item"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/lv_tv_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray"
+            android:text="谷歌开发者" />
+        <TextView
+            android:id="@+id/lv_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/lv_tv_title"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/gray"
+            android:text="2021-08-10 10:49"/>
+        <TextView
+            android:id="@+id/lv_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/lv_tv_author"
+            android:text="【JVM入门食用指南-2】对象分配&amp;垃圾回收机制"
+            android:textSize="15sp"
+            android:textColor="@color/font_black"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+</RelativeLayout>
