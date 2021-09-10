@@ -34,13 +34,13 @@ RecyclerView，RecyclerView联动滑动，viewpager，okhttp3，gson，banner，
 
 ​	`BannerData` 是首页banner的数据类。
 
-<img src="https://pic.imgdb.cn/item/613b9d7244eaada739c13a89.jpg" width = "108" height = "230" alt="图片名称" />
+<img src="https://pic.imgdb.cn/item/613b9d7244eaada739c13a89.jpg" width = "540" height = "1150" alt="图片名称" />
 
 ### 问答界面
 
 ​	问答界面就是一个瀑布流样式的RecyclerView
 
-<img src="https://pic.imgdb.cn/item/613ba07944eaada739c53677.jpg" width = "108" height = "230">
+<img src="https://pic.imgdb.cn/item/613ba07944eaada739c53677.jpg" width = "540" height = "1150">
 
 ### 体系界面
 
@@ -82,7 +82,7 @@ systemLeftAdapter.setLeftCheckListener(new SystemLeftAdapter.LeftCheckListener()
 }
 ```
 
-<img src="https://pic.imgdb.cn/item/613ba0e944eaada739c5bd4d.gif" width = "108" height = "230">
+<img src="https://pic.imgdb.cn/item/613ba0e944eaada739c5bd4d.gif" width = "540" height = "1150">
 
 ### 我的界面
 
@@ -118,7 +118,7 @@ imageView.setOnClickListener(new View.OnClickListener() {
 ​	登录或注册成功，储存返回的信息到数据库第二条。
 
 ​	点击退出登录按钮，删除当前用户的信息，这样会存在像积分没有办法及时同步的问题，也不算是登录持久化。
-<img src="https://pic.imgdb.cn/item/613ba12c44eaada739c60f4d.jpg"  width = "108" height = "230" >
+<img src="https://pic.imgdb.cn/item/613ba12c44eaada739c60f4d.jpg"  width = "540" height = "1150" >
 
 ### 登录和注册页面
 
@@ -126,7 +126,7 @@ imageView.setOnClickListener(new View.OnClickListener() {
 
 ​        登录成功之后这里没有使用gosn，手动解析的josn，比gson感觉要方便一些这里。
 
-<img src="https://pic.imgdb.cn/item/613b9fd944eaada739c46c60.gif" width = "108px" height = "230px" >
+<img src="https://pic.imgdb.cn/item/613b9fd944eaada739c46c60.gif" width = "540" height = "1150" >
 
 ## 总结
 
