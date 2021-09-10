@@ -65,6 +65,7 @@ public class MyFragment extends Fragment {
                 int id = list.get(1).getId();
                 LitePal.delete(UserInformation.class, id);
                 Toast.makeText(context, "退出登录", Toast.LENGTH_LONG).show();
+
                 updateName();
             }
         });
